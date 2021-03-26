@@ -1,6 +1,6 @@
 # FroilanFarmsJJM
 # Working Rules
-# NEVER PUSH TO MASTER!
+- NEVER PUSH TO MASTER!
 - Make a new branch in your CLI.
 - Double and triple check your code.Before pushing to your branch, make sure to "git pull" to eliminate unnecessary merge conflicts.
 - git status - Check what you did and what you changed.
