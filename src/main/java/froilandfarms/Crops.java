@@ -14,7 +14,12 @@ public  class Crops implements IProduce{
     }
 
     @Override
-    public void yield() {
+    public void yield(IProduce object) {
+
+    }
+
+    @Override
+    public void yield(EdibleEgg obj) {
 
     }
 

@@ -19,17 +19,26 @@ public class Chicken extends Animal implements IProduce {
     }
 
     @Override
-    public void yield() {
-        double yield;
-        if (hasBeenFertilized() == false) {
-            yield = Math.random() * 10 + 1;
-            System.out.println(" This chicken produced " + yield + " Edible Eggs.");
-        }
+    public void yield(IProduce object) {
+
     }
 
     @Override
     public void eat(IProduce obj) {
         System.out.println("the chicken eats" + obj.getClass().getSimpleName());
+    }
+
+    @Override
+    public void yield(EdibleEgg obj) {
+        int e = (int) (Math.random()* 10 + 1);
+        if (obj.hasBeenFertilized() == false) {
+            if (e == 1) {
+            System.out.println(e + "new EdibleEgg has appeared");
+        }
+            else if (e != 1) {
+                System.out.println(e + " new EdibleEggs have been laid");
+            }
+    }
 
     }
 }

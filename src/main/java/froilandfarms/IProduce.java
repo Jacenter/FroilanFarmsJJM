@@ -8,5 +8,7 @@ public interface IProduce {
 
     void harvest();
 
-    void yield();
+    void yield(IProduce object);
+
+    void yield(EdibleEgg obj);
 }

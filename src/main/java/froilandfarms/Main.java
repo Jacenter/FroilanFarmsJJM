@@ -10,6 +10,7 @@ public class Main {
         CropDuster cd = new CropDuster();
         Crops mushrooms = new Crops();
         Pilot gurl = new Pilot("Froilanda");
+        EdibleEgg ee = new EdibleEgg();
 
         fuckboi.mount(lightning);
         fuckboi.mount(tman);
@@ -22,6 +23,8 @@ public class Main {
         cd.operate(mushrooms);
         mushrooms.hasBeenFertilized();
         gurl.flyVehicle(cd);
+        gurl.eat(HarveyWeinstein);
+        HarveyWeinstein.yield(ee);
 
     }
 }

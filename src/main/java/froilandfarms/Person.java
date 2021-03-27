@@ -1,6 +1,6 @@
 package froilandfarms;
 
-//Person will impliments NoiseMaker & can eat edible objects
+//Person will implements NoiseMaker & can eat edible objects
 public abstract class Person implements INoiseMaker, IEater {
     public String name;
 
