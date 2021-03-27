@@ -13,7 +13,7 @@ public class Crops implements IProduce{
     public void hasBeenFertilized() {
         boolean hasBeenFerilised = false;
         if (hasBeenFerilised != true ){
-            System.out.println("This crop has been fertilized and is safe to eatS");
+            System.out.println("This crop has been fertilized and is safe to eat");
         }
 
     }
