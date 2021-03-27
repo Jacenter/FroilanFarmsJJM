@@ -9,7 +9,6 @@ public class EdibleEgg implements IProduce{
 
     @Override
     public void yield(IProduce produce) {
-        System.out.println("you made a new edible egg");
     }
 
     @Override

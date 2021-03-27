@@ -3,28 +3,27 @@ package froilandfarms;
 public class Main {
 
     public static void main(String[] args) {
-        Farmer fuckboi = new Farmer("Josh");
-        Horse lightning = new Horse();
-        Tractor tman = new Tractor();
-        Chicken HarveyWeinstein = new Chicken();
-        CropDuster cd = new CropDuster();
-        Crops mushrooms = new Crops();
-        Pilot gurl = new Pilot("Froilanda");
-        EdibleEgg ee = new EdibleEgg();
+        Farmer farmer1 = new Farmer("Froilan");
+        Horse horse1 = new Horse();
+        Tractor FroilansTractor = new Tractor();
+        Chicken CharlesTheChicken = new Chicken();
+        CropDuster FroilandasCropDuster = new CropDuster();
+        Crops Beans = new Crops();
+        Pilot Froilanda = new Pilot("Froilanda");
+        EdibleEgg edibleEgg = new EdibleEgg();
 
-        fuckboi.mount(lightning);
-        fuckboi.mount(tman);
-        fuckboi.dismount(lightning);
-        fuckboi.plant();
-        fuckboi.eat(HarveyWeinstein);
-        fuckboi.makeNoise();
-        lightning.makeNoise();
-        lightning.eat(HarveyWeinstein);
-        cd.operate(mushrooms);
-        mushrooms.hasBeenFertilized();
-        gurl.flyVehicle(cd);
-        gurl.eat(HarveyWeinstein);
-        HarveyWeinstein.yield(ee);
+        farmer1.mount(horse1);
+        farmer1.dismount(horse1);
+        farmer1.plant();
+        farmer1.eat(CharlesTheChicken);
+        farmer1.makeNoise();
+        horse1.makeNoise();
+        horse1.eat(CharlesTheChicken);
+        FroilandasCropDuster.operate(Beans);
+        Beans.hasBeenFertilized();
+        Froilanda.flyVehicle(FroilandasCropDuster);
+        Froilanda.eat(CharlesTheChicken);
+        CharlesTheChicken.yield(edibleEgg);
 
     }
 }
