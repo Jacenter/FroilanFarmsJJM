@@ -1,9 +1,9 @@
 package farm;
 
-public class Carrot {
+public class Corn {
     public String color;
-    public Carrot(String color){
+    //constructor
+    public Corn(String color){
         this.color = color;
-
     }
 }

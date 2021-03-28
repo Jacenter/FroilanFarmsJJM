@@ -1,6 +1,6 @@
 package farm;
 
-public class GreenBean extends Crop implements Produce {
+public class GreenBean {
     public String color;
     //constructor
     public GreenBean(String color){

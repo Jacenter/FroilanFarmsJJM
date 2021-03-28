@@ -1,19 +1,12 @@
 package farm;
 
-import jdk.swing.interop.SwingInterOpUtils;
+import java.util.ArrayList;
 
 public class Field extends Farm {
-    Carrot = new Carrot("orange");
-    Cucumber = new Cucumber("green");
-    GreenBean = new GreenBean("green");
+    public ArrayList<CropRow> cropRows;
 
-    Field[] cropRows = new Field[4];
+    public void CropRow(){
+        cropRows = new ArrayList<CropRow>();
 
-    cropRows[0] = new Corn();
-    cropRows[1] = new Tomato();
-    cropRows[2] = new Carrot();
-    cropRows[3] = new Cucumber();
-    cropRows[4] = new GreenBean();
-
+    }
 }
-
