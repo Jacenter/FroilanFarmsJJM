@@ -3,6 +3,7 @@ package froilandfarms.vehicles;
 import froilandfarms.crops_and_produce.Crops;
 import froilandfarms.farm.CropRow;
 import froilandfarms.interfaces.IAircraft;
+import froilandfarms.people.Pilot;
 
 public class CropDuster extends FarmVehicle implements IAircraft {
 
@@ -17,7 +18,7 @@ public class CropDuster extends FarmVehicle implements IAircraft {
 
     @Override
     public void fly(FarmVehicle obj) {
-        System.out.println(obj.getClass().getSimpleName() + " is flying high in the sky");
+        System.out.println("The " + obj.getClass().getSimpleName() + " is flying high in the sky");
 
     }
 
